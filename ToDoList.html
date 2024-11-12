@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="list.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <div class="box p-3">
+    <div class="heading" id="head">
+      <h1 class="text-center pb-3"><u>To-Do List</u></h1>
+      <div class="add-input d-flex align-items-center justify-content-between mb-2" id="in">
+        <input id="input-box" type="text" placeholder="Add your list">
+        <button class="add-btn p-2" id="btn-add" onclick="add()">Add</button>
+      </div>
+      <p class="text-center text-white p-3" id="mm">Write anything on input box!...</p>
+      <div id="example">
+      </div>
+    </div>
+  </div>
+
+  <script src="ToDo.js"></script>
+</body>
+</html>
